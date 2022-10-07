@@ -14,10 +14,10 @@
 
 ```json
 {
-  title: 'RPGhuds for ItemsAdder',
-  premium: false,
-  link: 'https:\/\/www.spigotmc.org/resources/addon-rpghuds-for-itemsadder.97486/',
-  image: '图床链接',
-  tag: ['hud', 'plugin']
+  "title": "RPGhuds for ItemsAdder",
+  "premium": false,
+  "link": "https://www.spigotmc.org/resources/addon-rpghuds-for-itemsadder.97486/",
+  "image": "图床链接",
+  "tag": ["hud", "plugin"]
 },
 ```
