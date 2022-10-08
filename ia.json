@@ -1,5 +1,6 @@
 {
-  "top": [{
+  "recommends_tip": "max length: 3",
+  "recommends": [{
     "title": "CustomCrops [ItemsAdder]",
     "premium": true,
     "link": "https://polymart.org/resource/customcrops-itemsadder.2625",
@@ -15,6 +16,7 @@
     "link": "https://www.spigotmc.org/resources/addon-rpghuds-for-itemsadder.97486/",
     "image": "/item/RPGHuds.png"
   }],
+  "item_tip": "max length: infinite",
   "item": [{
     "title": "[Items] Custom player heads (2D head, big wearable head)",
     "premium": false,
