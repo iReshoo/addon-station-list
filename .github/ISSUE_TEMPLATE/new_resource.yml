@@ -3,9 +3,9 @@ description: Request to add a new resource
 labels: ["new resource"]
 body:
   - type: checkboxes
-    id: searched
+    id: rule
     attributes:
-      label: Terms
+      label: Rules
       options:
         - label: "I know every resource I publish MUST NOT contain any of the default itemsadder resources (textures, models, .jar file)"
           required: true
