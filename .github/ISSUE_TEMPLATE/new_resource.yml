@@ -1,0 +1,67 @@
+name: New resource
+description: Request to add a new resource
+labels: ["new resource"]
+body:
+  - type: checkboxes
+    id: searched
+    attributes:
+      label: Terms
+      options:
+        - label: "I know every resource I publish MUST NOT contain any of the default itemsadder resources (textures, models, .jar file)"
+          required: true
+  - type: input
+    id: resource-name
+    attributes:
+      label: Resource name
+      description: The resource name (It will appear on the resource card header)
+      placeholder: CustomCropss ⭐ Create Crops Yourself ⭕ 1.16.4 - 1.19.2
+    validations:
+      required: true
+  - type: input
+    id: resource-introduction
+    attributes:
+    label: Resource introduction
+      description: "Introduction to resources (It will appear on the resource card(list mode))"
+      placeholder: "Briefly introduce your resources."
+    validations:
+      required: true
+  - type: input
+    id: resource-link
+    attributes:
+      label: Resource link
+      placeholder: "A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]"
+    validations:
+      required: true
+  - type: textarea
+    id: logo
+    attributes:
+      label: Resource logo
+      description: Resource logo (It will appear on the resource avatar)
+    validations:
+      required: true
+  - type: textarea
+    id: cover
+    attributes:
+      label: Resource cover
+      description: Resource cover (It will appear on the resource cover)
+    validations:
+      required: true
+  - type: checkboxes
+    id: searched
+    attributes:
+      label: Tags
+      options:
+        - label: "Plugin"
+          required: false
+        - label: "Furniture (Include blocks)"
+          required: false
+        - label: "Entity"
+          required: false
+        - label: "Item"
+          required: false
+        - label: "HUD"
+          required: false
+  - type: markdown
+    attributes:
+      value: |
+        ## Thanks for upload!
