@@ -20,8 +20,8 @@ body:
   - type: input
     id: resource-introduction
     attributes:
-    label: Resource introduction
-      description: "Introduction to resources (It will appear on the resource card(list mode))"
+      label: Resource introduction
+      description: "Introduction to resources (It will appear on the resource card)"
       placeholder: "Seasons, greenhouse, fertilizers and sprinklers! Supports ItemsAdder & Oraxen"
     validations:
       required: true
