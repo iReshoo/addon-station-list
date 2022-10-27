@@ -14,10 +14,23 @@
 
 ```json
 {
+  "logo": "https://s2.loli.net/2022/10/27/hXrGsbQHBF4D9Uz.png",
   "title": "RPGhuds for ItemsAdder",
+  "content": "Currency indicator, GPS, quiver and more HUDs for ItemsAdder",
   "premium": false,
   "link": "https://www.spigotmc.org/resources/addon-rpghuds-for-itemsadder.97486/",
-  "image": "图床链接",
-  "tag": ["hud", "plugin"]
+  "image": "https://s2.loli.net/2022/10/27/5gB1SRheKNUmyIp.png",
+  "tags": ["hud", "plugin"]
 },
+```
+
+CC resource
+```json
+{
+  "title": "Amogus",
+  "premium": false,
+  "link": "#",
+  "image": "https://s2.loli.net/2022/10/27/3SA7rjpC8ZFYUQL.png",
+  "tags": ["ballon"]
+}
 ```

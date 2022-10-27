@@ -1,0 +1,10 @@
+{
+  "logo": "/assets/item/ia/CustomPlayerHeads/logo.png",
+  "title": "Custom player heads (2D head, big wearable head)",
+  "content": "Set of custom sizes for player heads ( for ItemsAdder )",
+  "premium": false,
+  "link": "https://www.spigotmc.org/resources/items-custom-player-heads-2d-head-big-wearable-head.99121/",
+  "image": "/assets/item/ia/CustomPlayerHeads/image.png",
+  "tags": ["item", "plugin"],
+  "time": 1666769239
+}

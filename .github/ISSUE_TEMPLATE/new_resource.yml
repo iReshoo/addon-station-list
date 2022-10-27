@@ -14,7 +14,7 @@ body:
     attributes:
       label: Resource name
       description: The resource name (It will appear on the resource card header)
-      placeholder: CustomCropss ⭐ Create Crops Yourself ⭕ 1.16.4 - 1.19.2
+      placeholder: CustomCrops ⭐ Create Crops Yourself ⭕ 1.16.4 - 1.19.2
     validations:
       required: true
   - type: input
