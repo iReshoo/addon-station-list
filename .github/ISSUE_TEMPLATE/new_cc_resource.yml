@@ -1,0 +1,55 @@
+name: New CC resource
+description: Request to add a new CC resource
+labels: ["new cc resource"]
+body:
+  - type: checkboxes
+    id: rule
+    attributes:
+      label: Rules
+      options:
+        - label: "I know every resource I publish MUST NOT contain any of the default itemsadder resources (textures, models, .jar file)"
+          required: true
+  - type: input
+    id: resource-name
+    attributes:
+      label: Resource name (title)
+      description: The resource name (It will appear on the resource card title)
+      placeholder: Amogus
+    validations:
+      required: true
+  - type: checkboxes
+    id: premium
+    attributes:
+      label: Is the resource premium (premium)
+      options:
+        - label: "yes"
+  - type: input
+    id: resource-link
+    attributes:
+      label: Resource link (link)
+      description: Resource link (The address will go to when user click the resource card)
+      placeholder: "[link here]"
+    validations:
+      required: true
+  - type: textarea
+    id: cover
+    attributes:
+      label: Resource cover (image)
+      description: Resource cover (It will appear on the resource cover)
+    validations:
+      required: true
+  - type: checkboxes
+    id: tags
+    attributes:
+      label: Tags (tags)
+      options:
+        - label: "Hat"
+          required: false
+        - label: "Body"
+          required: false
+        - label: "Ballon"
+          required: false
+  - type: markdown
+    attributes:
+      value: |
+        ## Thanks for upload!

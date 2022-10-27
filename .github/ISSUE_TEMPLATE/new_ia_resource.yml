@@ -1,6 +1,6 @@
-name: New resource
-description: Request to add a new resource
-labels: ["new resource"]
+name: New IA resource
+description: Request to add a new IA resource
+labels: ["new ia resource"]
 body:
   - type: checkboxes
     id: rule
@@ -9,47 +9,54 @@ body:
       options:
         - label: "I know every resource I publish MUST NOT contain any of the default itemsadder resources (textures, models, .jar file)"
           required: true
+  - type: textarea
+    id: logo
+    attributes:
+      label: Resource logo (logo)
+      description: Resource logo (It will appear on the resource card avatar)
+    validations:
+      required: true
   - type: input
     id: resource-name
     attributes:
-      label: Resource name
-      description: The resource name (It will appear on the resource card header)
+      label: Resource name (title)
+      description: The resource name (It will appear on the resource card title)
       placeholder: CustomCrops ⭐ Create Crops Yourself ⭕ 1.16.4 - 1.19.2
     validations:
       required: true
   - type: input
     id: resource-introduction
     attributes:
-      label: Resource introduction
-      description: "Introduction to resources (It will appear on the resource card)"
+      label: Resource introduction (content)
+      description: "Introduction to resources (It will appear on the resource list)"
       placeholder: "Seasons, greenhouse, fertilizers and sprinklers! Supports ItemsAdder & Oraxen"
     validations:
       required: true
+  - type: checkboxes
+    id: premium
+    attributes:
+      label: Is the resource premium (premium)
+      options:
+        - label: "yes"
   - type: input
     id: resource-link
     attributes:
-      label: Resource link
+      label: Resource link (link)
+      description: Resource link (The address will go to when user click the resource card)
       placeholder: "[link here]"
-    validations:
-      required: true
-  - type: textarea
-    id: logo
-    attributes:
-      label: Resource logo
-      description: Resource logo (It will appear on the resource avatar)
     validations:
       required: true
   - type: textarea
     id: cover
     attributes:
-      label: Resource cover
-      description: Resource cover (It will appear on the resource cover)
+      label: Resource cover (image)
+      description: Resource cover (It will appear on the resource card cover)
     validations:
       required: true
   - type: checkboxes
-    id: searched
+    id: tags
     attributes:
-      label: Tags
+      label: Tags (tags)
       options:
         - label: "Plugin"
           required: false
