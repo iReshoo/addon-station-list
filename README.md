@@ -6,6 +6,8 @@ English | [中文](./README_zh.md)
 
 * To upload an ItemsAdder addon, plugin that uses IA API, configurations, resource packs, namespaces.. you have to create a pull request here
 
+* We recommend that you use https://smms.app/ Place images or other globally accessible image hosting websites, or even your private object storage! (Chinese users cannot access github raw)
+
 ### Rules to publish the resources are:
 
 * every resource you publish MUST NOT contain any of the default itemsadder resources (textures, models, .jar file)
