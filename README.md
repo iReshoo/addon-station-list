@@ -21,7 +21,8 @@ IA resource
   "premium": false,
   "link": "https://www.spigotmc.org/resources/addon-rpghuds-for-itemsadder.97486/",
   "image": "https://s2.loli.net/2022/10/27/5gB1SRheKNUmyIp.png",
-  "tags": ["hud", "plugin"]
+  "tags": ["hud", "plugin"],
+  "author": "LoneDev"
 }
 ```
 
@@ -32,6 +33,7 @@ CC resource
   "premium": false,
   "link": "#",
   "image": "https://s2.loli.net/2022/10/27/3SA7rjpC8ZFYUQL.png",
-  "tags": ["ballon"]
+  "tags": ["ballon"],
+  "author": "Cha_Shao"
 }
 ```

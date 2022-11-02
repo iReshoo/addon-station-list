@@ -3,5 +3,6 @@
   "premium": false,
   "link": "#",
   "image": "/assets/item/cc/SimpleBackPack/image.png",
-  "tags": ["body"]
+  "tags": ["body"],
+  "author": "LoneDev"
 }
