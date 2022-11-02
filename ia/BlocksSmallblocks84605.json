@@ -1,1 +1,10 @@
-{"logo":"https://cdn.jsdelivr.net/gh/Cha-Shao/addon-station-list/ia/assets/logo_and_image_BlocksSmallblocks84605.png","image":"https://cdn.jsdelivr.net/gh/Cha-Shao/addon-station-list/ia/assets/logo_and_image_BlocksSmallblocks84605.png","title":"[Blocks] Small blocks","content":"Adds some example small blocks to ItemsAdder","premium":false,"link":"https://www.spigotmc.org/resources/84605","tags":[],"author":"LoneDev"}
+{
+  "logo": "https://s2.loli.net/2022/11/03/GK9XFzEd7PuYpZ6.png",
+  "image": "https://s2.loli.net/2022/11/03/VMs2Qzu1PWLwOBd.png",
+  "title": "[Blocks] Small blocks",
+  "content": "Adds some example small blocks to ItemsAdder",
+  "premium": false,
+  "link": "https://www.spigotmc.org/resources/84605",
+  "tags": [],
+  "author": "LoneDev"
+}

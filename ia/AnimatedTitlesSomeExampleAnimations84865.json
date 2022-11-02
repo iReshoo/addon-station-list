@@ -1,1 +1,10 @@
-{"logo":"https://cdn.jsdelivr.net/gh/Cha-Shao/addon-station-list/ia/assets/logo_and_image_AnimatedTitlesSomeExampleAnimations84865.png","image":"https://cdn.jsdelivr.net/gh/Cha-Shao/addon-station-list/ia/assets/logo_and_image_AnimatedTitlesSomeExampleAnimations84865.png","title":"[AnimatedTitles] Some Example Animations","content":"Adds some example animated titles to ItemsAdder","premium":false,"link":"https://www.spigotmc.org/resources/84865","tags":[],"author":"LoneDev"}
+{
+  "logo": "https://s2.loli.net/2022/11/03/Nd9cbpymJaYjXBk.png",
+  "image": "https://s2.loli.net/2022/11/03/Nd9cbpymJaYjXBk.png",
+  "title": "[AnimatedTitles] Some Example Animations",
+  "content": "Adds some example animated titles to ItemsAdder",
+  "premium": false,
+  "link": "https://www.spigotmc.org/resources/84865",
+  "tags": [],
+  "author": "LoneDev"
+}
