@@ -1,19 +1,19 @@
-name: New IA resource
-description: Request to add a new IA resource
+name: 新的IA资源
+description: 申请上传IA资源
 labels: ["new ia resource"]
 body:
   - type: checkboxes
     id: rule
     attributes:
-      label: Rules
+      label: 必读
       options:
-        - label: "I know every resource I publish MUST NOT contain any of the default itemsadder resources (textures, models, .jar file)"
+        - label: "我知道我发布的资源内不得包含Itemsadder的默认资源（包括但不限于材质、模型、.jar文件）"
           required: true
   - type: textarea
     id: json
     attributes:
       label: JSON
-      description: If you enter json configuration here, the following steps can be omitted
+      description: 如果你直接在此输入json文件，后面的选项可以跳过
       placeholder: |-
         {
           "logo": "<LINK>",
@@ -28,51 +28,51 @@ body:
   - type: input
     id: avatar
     attributes:
-      label: Resource logo (avatar)
-      description: Resource logo link(It will appear on the resource card avatar)
+      label: 资源logo (avatar)
+      description: 资源的logo图床链接 (It will appear on the resource card avatar)
   - type: input
     id: title
     attributes:
-      label: Resource name (title)
-      description: The resource name (It will appear on the resource card title)
+      label: 资源名称 (title)
+      description: 资源的名称 (将会应用在资源卡的标题上)
       placeholder: CustomCrops ⭐ Create Crops Yourself ⭕ 1.16.4 - 1.19.2
   - type: input
     id: content
     attributes:
-      label: Resource introduction (content)
-      description: "Introduction to resources (It will appear on the resource list)"
+      label: 资源简介 (content)
+      description: 资源的简介 (将会应用在资源的列表视图的名字下面)"
       placeholder: "Seasons, greenhouse, fertilizers and sprinklers! Supports ItemsAdder & Oraxen"
   - type: checkboxes
     id: premium
     attributes:
-      label: Is the resource premium (premium)
+      label: 此资源是付费的吗？
       options:
-        - label: "yes"
+        - label: "是的"
   - type: input
     id: link
     attributes:
-      label: Resource link (link)
-      description: Resource link (The address will go to when user click the resource card)
-      placeholder: "[link here]"
+      label: 资源链接 (link)
+      description: 资源的链接 (其他人点击资源卡后会跳转的地方)
+      placeholder: "[输入链接]"
   - type: input
     id: image
     attributes:
-      label: Resource cover (image)
-      description: Resource cover link (It will appear on the resource card cover)
+      label: 资源封面 (image)
+      description: 资源的封面图床链接 (将会应用在资源卡的图像上)
   - type: checkboxes
     id: tags
     attributes:
-      label: Tags (tags)
+      label: 标签 (tags)
       options:
-        - label: "Plugin"
+        - label: "插件"
           required: false
-        - label: "Furniture"
+        - label: "家具"
           required: false
-        - label: "Entity"
+        - label: "生物"
           required: false
-        - label: "Item"
+        - label: "物品"
           required: false
-        - label: "Block"
+        - label: "方块"
           required: false
         - label: "HUD"
           required: false
@@ -81,9 +81,9 @@ body:
   - type: input
     id: name
     attributes:
-      label: Your name (name)
-      description: Author of the resource
+      label: 作者名字 (name)
+      description: 资源的作者
   - type: markdown
     attributes:
       value: |
-        ## Thanks for upload!
+        ## 感谢投稿
