@@ -9,14 +9,26 @@ body:
       options:
         - label: "I know every resource I publish MUST NOT contain any of the default itemsadder resources (textures, models, .jar file)"
           required: true
+  - type: textarea
+    id: json
+    attributes:
+      label: JSON
+      description: If you directly enter json configuration here, the following steps will be omitted
+      placeholder: |-
+        {
+          "title": "<TITLE>",
+          "premium": true | false,
+          "link": "<LINK>",
+          "image": "<LINK>",
+          "tags": ["hat", "body", "ballon"],
+          "author": "<NAME>"
+        }
   - type: input
-    id: resource-name
+    id: title
     attributes:
       label: Resource name (title)
       description: The resource name (It will appear on the resource card title)
       placeholder: Amogus
-    validations:
-      required: true
   - type: checkboxes
     id: premium
     attributes:
@@ -24,20 +36,16 @@ body:
       options:
         - label: "yes"
   - type: input
-    id: resource-link
+    id: link
     attributes:
       label: Resource link (link)
       description: Resource link (The address will go to when user click the resource card)
       placeholder: "[link here]"
-    validations:
-      required: true
-  - type: textarea
-    id: cover
+  - type: input
+    id: image
     attributes:
       label: Resource cover (image)
       description: Resource cover (It will appear on the resource cover)
-    validations:
-      required: true
   - type: checkboxes
     id: tags
     attributes:
@@ -49,6 +57,11 @@ body:
           required: false
         - label: "Ballon"
           required: false
+  - type: input
+    id: name
+    attributes:
+      label: Your name (name)
+      description: Author of the resource
   - type: markdown
     attributes:
       value: |

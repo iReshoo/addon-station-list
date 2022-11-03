@@ -10,28 +10,38 @@ body:
         - label: "I know every resource I publish MUST NOT contain any of the default itemsadder resources (textures, models, .jar file)"
           required: true
   - type: textarea
-    id: logo
+    id: json
     attributes:
-      label: Resource logo (logo)
-      description: Resource logo (It will appear on the resource card avatar)
-    validations:
-      required: true
+      label: JSON
+      description: If you directly enter json configuration here, the following steps will be omitted
+      placeholder: |-
+        {
+          "logo": "<LINK>",
+          "image": "<LINK>",
+          "title": "<TITLE>",
+          "content": "<CONTENT>",
+          "premium": true | false,
+          "link": "<LINK>",
+          "tags": ["plugin", "furniture", "entity", "item", "block", "hud", "gui"],
+          "author": "<NAME>"
+        }
   - type: input
-    id: resource-name
+    id: avatar
+    attributes:
+      label: Resource logo (avatar)
+      description: Resource logo link(It will appear on the resource card avatar)
+  - type: input
+    id: title
     attributes:
       label: Resource name (title)
       description: The resource name (It will appear on the resource card title)
       placeholder: CustomCrops ⭐ Create Crops Yourself ⭕ 1.16.4 - 1.19.2
-    validations:
-      required: true
   - type: input
-    id: resource-introduction
+    id: content
     attributes:
       label: Resource introduction (content)
       description: "Introduction to resources (It will appear on the resource list)"
       placeholder: "Seasons, greenhouse, fertilizers and sprinklers! Supports ItemsAdder & Oraxen"
-    validations:
-      required: true
   - type: checkboxes
     id: premium
     attributes:
@@ -39,20 +49,16 @@ body:
       options:
         - label: "yes"
   - type: input
-    id: resource-link
+    id: link
     attributes:
       label: Resource link (link)
       description: Resource link (The address will go to when user click the resource card)
       placeholder: "[link here]"
-    validations:
-      required: true
-  - type: textarea
-    id: cover
+  - type: input
+    id: image
     attributes:
       label: Resource cover (image)
       description: Resource cover (It will appear on the resource card cover)
-    validations:
-      required: true
   - type: checkboxes
     id: tags
     attributes:
@@ -60,14 +66,23 @@ body:
       options:
         - label: "Plugin"
           required: false
-        - label: "Furniture (Include blocks)"
+        - label: "Furniture"
           required: false
         - label: "Entity"
           required: false
         - label: "Item"
           required: false
+        - label: "Block"
+          required: false
         - label: "HUD"
           required: false
+        - label: "GUI"
+          required: false
+  - type: input
+    id: name
+    attributes:
+      label: Your name (name)
+      description: Author of the resource
   - type: markdown
     attributes:
       value: |
