@@ -57,6 +57,8 @@ body:
           required: false
         - label: "Ballon"
           required: false
+        - label: "Pack"
+          required: false
   - type: input
     id: name
     attributes:

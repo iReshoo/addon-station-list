@@ -57,6 +57,8 @@ body:
           required: false
         - label: "气球"
           required: false
+        - label: "时装包"
+          required: false
   - type: input
     id: name
     attributes:
