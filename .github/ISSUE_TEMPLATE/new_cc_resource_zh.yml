@@ -11,20 +11,6 @@ body:
           required: true
         - label: "我知道我可以直接创建 Pull Request 提交写好的json文件，就不用在这里提交Issue了"
           required: true
-  - type: textarea
-    id: json
-    attributes:
-      label: JSON
-      description: 如果你直接在此输入json文件，后面的选项可以跳过
-      placeholder: |-
-        {
-          "title": "<TITLE>",
-          "premium": true | false,
-          "link": "<LINK>",
-          "image": "<LINK>",
-          "tags": ["hat", "body", "ballon"],
-          "author": "<NAME>"
-        }
   - type: input
     id: title
     attributes:

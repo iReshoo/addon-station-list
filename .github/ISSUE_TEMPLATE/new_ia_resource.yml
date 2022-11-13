@@ -11,22 +11,6 @@ body:
           required: true
         - label: "I know I can create a Pull Request to submit the json file I wrote, so I don't need to submit an Issue here"
           required: true
-  - type: textarea
-    id: json
-    attributes:
-      label: JSON
-      description: If you enter json configuration here, the following steps can be omitted
-      placeholder: |-
-        {
-          "logo": "<LINK>",
-          "image": "<LINK>",
-          "title": "<TITLE>",
-          "content": "<CONTENT>",
-          "premium": true | false,
-          "link": "<LINK>",
-          "tags": ["plugin", "furniture", "entity", "item", "block", "hud", "gui"],
-          "author": "<NAME>"
-        }
   - type: input
     id: avatar
     attributes:
