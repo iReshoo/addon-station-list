@@ -9,6 +9,8 @@ body:
       options:
         - label: "I know every resource I publish MUST NOT contain any of the default itemsadder resources (textures, models, .jar file)"
           required: true
+        - label: "I know I can create a Pull Request to submit the json file I wrote, so I don't need to submit an Issue here"
+          required: true
   - type: textarea
     id: json
     attributes:
