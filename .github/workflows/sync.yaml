@@ -13,11 +13,20 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
-      - name: Push to addon-station
+
+      - name: Commit files
+        run: |
+          git config --local user.email "actions[bot]@github.com"
+          git config --local user.name "github-actions[bot]"
+          git tag Sync
+          git commit -a -m "Sync changes"
+
+      - name: Push changes
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.ADDON_STATION_TOKEN }}
-          branch: master
           force: true
           repository: Cha-Shao/addon-station
           directory: src/resources
+        env:
+          GITHUB_REF: refs/tags/sync
