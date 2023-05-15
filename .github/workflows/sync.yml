@@ -1,0 +1,27 @@
+name: Sync to addon-station
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+      - name: Sync code
+        run: |
+          git config --global user.email "actions@github.com"
+          git config --global user.name "GitHub Actions"
+          git remote add addon-station git@github.com:Cha-Shao/addon-station.git
+          git fetch addon-station
+          git checkout -b sync
+          git merge --no-edit addon-station/main
+          git push addon-station sync:main
