@@ -30,9 +30,12 @@ How to upload an ItemsAdder addon, a plugin that uses ItemsAdder API, ItemsAdder
 
 * Now press on `Commit changes...` and create a pull request. 
 
-### Rules to publish the resources are:
+------
+
+# Rules to publish the resources are:
 
 * every resource you publish MUST NOT contain any of the default itemsadder resources (textures, models, .jar file).
+* you can publish resources only on these websites: [SpigotMC](https://www.spigotmc.org/), [PolyMart](https://polymart.org/), [BuiltByBit](https://builtbybit.com/), [McModels](https://mcmodels.net/).
 * you must satisfy the rules of the marketplace where you published the resource.
 
 ## Example Config
