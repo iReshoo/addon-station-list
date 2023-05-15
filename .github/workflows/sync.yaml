@@ -1,0 +1,23 @@
+name: Push to addon-station
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    types: [closed]
+    branches:
+      - master
+jobs:
+  push_to_addon_station:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Push to addon-station
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: master
+          force: true
+          repository: Cha-Shao/addon-station
+          directory: src/resources
