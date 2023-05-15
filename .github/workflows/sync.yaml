@@ -16,7 +16,7 @@ jobs:
       - name: Push to addon-station
         uses: ad-m/github-push-action@master
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.ADDON_STATION_TOKEN }}
           branch: master
           force: true
           repository: Cha-Shao/addon-station
