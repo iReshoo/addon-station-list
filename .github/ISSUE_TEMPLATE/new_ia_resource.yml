@@ -40,6 +40,11 @@ body:
     attributes:
       label: Resource cover (image)
       description: Resource cover link (It will appear on the resource card cover)
+  - type: input
+    id: icon
+    attributes:
+      label: Resource icon (icon)
+      description: Resource icon link (It will appear on the resource list icon)
   - type: checkboxes
     id: tags
     attributes:
