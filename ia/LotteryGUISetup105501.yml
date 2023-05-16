@@ -1,6 +1,7 @@
 author: ElgaeNetwork
 content: ItemsAdder, Texture, Setup plugin, addon ItemsAdder, lottery plugin setup.
   "ItemsAdder"
+icon: '~'
 image: /assets/ia/logo_and_image_LotteryGUISetup105501.png
 link: https://www.spigotmc.org/resources/105501
 premium: false

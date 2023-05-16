@@ -1,11 +1,12 @@
 author: arxivi
 content: ItemsAdder, ore, ingot, silver, metal, ores, survial
+icon: '~'
 image: https://s2.loli.net/2023/05/15/v2X3RuigTYobnyJ.png
 link: https://www.spigotmc.org/resources/ores-noble-metals-full-set-for-itemsadder.108633/
 premium: false
 tags:
-  - ores
-  - items
-  - blocks
-title: Noble Metals
+- ores
+- items
+- blocks
 time: 1679049967
+title: Noble Metals

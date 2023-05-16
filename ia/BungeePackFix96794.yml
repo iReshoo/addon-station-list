@@ -1,6 +1,7 @@
 author: LoneDev
 content: Avoid sending resourcepacks again if it's the same resourcepack ( useful
   ).
+icon: '~'
 image: /assets/ia/logo_and_image_BungeePackFix96794.png
 link: https://www.spigotmc.org/resources/96794
 premium: false

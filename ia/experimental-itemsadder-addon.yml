@@ -1,9 +1,10 @@
 author: Teddy563
-title: Experimental
 content: Add experimental features through ItemsAdder like paint blocks.
+icon: '~'
 image: https://s2.loli.net/2023/05/15/IgvJ1GyNdsjYzT7.png
 link: https://www.spigotmc.org/resources/experimental-itemsadder-addon.108090/
 premium: false
 tags:
-  - blocks
+- blocks
 time: 1676717167
+title: Experimental

@@ -1,6 +1,6 @@
 # 创意工坊
 
-[English](./README.md) | 中文 
+[English](./README.md) | 中文
 
 ### 如何上传我的资源？
 
@@ -20,6 +20,7 @@ IA
 author: LoneDev
 content: Currency indicator, GPS, quiver and more HUDs for ItemsAdder
 image: https://s2.loli.net/2022/10/27/5gB1SRheKNUmyIp.png
+icon: https://www.spigotmc.org/data/resource_icons/97/97486.jpg?1636395812
 link: https://www.spigotmc.org/resources/addon-rpghuds-for-itemsadder.97486
 premium: false
 tags:

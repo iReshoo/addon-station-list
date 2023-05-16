@@ -1,9 +1,10 @@
 author: GeodeStudios
-title: Ice Tools & Armor set
 content: Improve your server with a custom armor & tool set
+icon: '~'
 image: https://s2.loli.net/2023/05/15/DJqrOxWjh1VlTYF.png
 link: https://www.spigotmc.org/resources/ice-tools-armor-set-itemsadder-oraxen.107842/
 premium: false
 tags:
-  - gui
+- gui
 time: 1683452767
+title: Ice Tools & Armor set

@@ -1,6 +1,7 @@
 author: LoneDev
 content: Hack to inject blocks into the game blocks registry and change their texture
   on the client
+icon: '~'
 image: /assets/ia/logo_and_image_ItemsAdderBlocksInjector102078.png
 link: https://www.spigotmc.org/resources/102078
 premium: false

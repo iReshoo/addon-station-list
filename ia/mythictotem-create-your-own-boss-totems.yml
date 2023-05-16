@@ -1,9 +1,10 @@
 author: PQguanfang
-title: "MythicTotem | Create your own BOSS totems!"
 content: Create BOSS spawn totem or bonus totem! - Unlimited size
+icon: '~'
 image: https://s2.loli.net/2023/05/15/Nb6CG2umIoLO7El.png
 link: https://www.spigotmc.org/resources/mythictotem-create-your-own-boss-totems-1-13-1-19.102466/
 premium: false
 tags:
-  - plugin
+- plugin
 time: 1683539167
+title: MythicTotem | Create your own BOSS totems!

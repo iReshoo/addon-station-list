@@ -1,11 +1,12 @@
 author: arxivi
 content: ItemsAdder, minerals, survial, ores
+icon: '~'
 image: https://s2.loli.net/2023/05/15/NPM5am1dpEeL97H.png
 link: https://www.spigotmc.org/resources/minerals-gemstone-bit-new-8-types-gems-for-itemsadde.108710/
 premium: false
 tags:
-  - ores
-  - items
-  - blocks
-title: Gemstone Bit
+- ores
+- items
+- blocks
 time: 1679049967
+title: Gemstone Bit

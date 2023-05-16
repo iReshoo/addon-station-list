@@ -1,11 +1,12 @@
 author: arxivi
 content: ItemsAdder, fire, survial, coal
+icon: '~'
 image: https://s2.loli.net/2023/05/15/ufQJmbVi2jPwopy.png
 link: https://www.spigotmc.org/resources/minerals-more-coal-new-two-type-coal-for-itemsadder.108663/
 premium: false
 tags:
-  - ores
-  - items
-  - blocks
-title: More Coal
+- ores
+- items
+- blocks
 time: 1679049967
+title: More Coal

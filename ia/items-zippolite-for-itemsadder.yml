@@ -1,9 +1,10 @@
 author: arxivi
-title: ZippoLite
 content: ItemsAdder, fire, survial
+icon: '~'
 image: https://s2.loli.net/2023/05/15/oriTynm6SJ4dQhq.png
 link: https://www.spigotmc.org/resources/items-zippolite-for-itemsadder.108519/
 premium: false
 tags:
-  - items
+- items
 time: 1679049967
+title: ZippoLite
